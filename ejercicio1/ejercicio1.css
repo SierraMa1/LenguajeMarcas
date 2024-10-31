@@ -1,0 +1,60 @@
+
+
+.titulo {
+	background-color: slateblue;
+	color: white;
+	font-family: Tahoma;
+	padding: 10px;
+}
+
+img {
+	margin-bottom: 10px;
+}
+
+.sombra {
+    box-shadow: 2px 2px  black; 
+}
+
+table, th, td {
+    border: 3px solid;
+	border-color: red;
+}
+
+
+table {
+	width: 250px;
+	border-collapse: collapse;
+}
+
+th {
+	background-color: pink;
+	color: black;
+	font-style: Verdana;
+}
+
+td {
+	color: black;
+	font-weight: bold;
+	font-style: Impact;
+	padding-left:   5px;
+}
+
+.w-15 {
+	width: 15%;
+}
+.w-60 {
+	width: 60%;
+}
+.w-25 {
+	width: 25%;
+}
+
+.first-column {
+	background-color: hotpink;
+}
+#reproduciendo td {
+	background-color: yellow;
+	font-weight: bold;
+	color: red;
+	text-shadow: 2px black;
+}

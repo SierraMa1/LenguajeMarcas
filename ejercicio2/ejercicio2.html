@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="ejercicio2.css">
+	<title>Ejercicio 2</title>
+</head>
+<body>
+	<div class="titulo">
+		<h1>Ejercicio 2. Venta de entradas</h1>
+	</div>
+	<br>
+	<form action="ejercicio2b.html" method="get" class="formulario">
+		<fieldset>
+			<legend class="verdana">Entradas</legend>
+			<p class="calibri">Número de entradas:
+				<select id="cantidad">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</select>
+			</p>
+			<br>
+			<p class="calibri">Categoría:</p>
+			<br>
+			<select id="categoria">
+				<option value1="Pista general">Pista general</option>
+				<option value1="Grada1">Grada1</option>
+				<option value1="Grada2">Grada2</option>
+			</select>
+		</fieldset>
+		<fieldset>
+			<legend class="verdana">Datos del comprador</legend>
+			<p for="Nombre" class="calibri">Nombre:
+				<input name="name" type="text" />
+			</p>
+			<p for="apellidos" class="calibri">Apellidos
+				<input name="subname" type="text" />
+			</p>
+			<p for="mail" class="calibri">E-Mail:
+				<input name="mail" type="text" />
+			</p>
+			<p for="date" class="calibri">Fecha de Nacimiento:
+				<input type="date" />
+			</p>
+		</fieldset>
+		<fieldset>
+			<legend class="verdana">Pago</legend>
+			<p class="calibri">Seleciona método de pago:</p>
+			<input  name="radio"value="visa" type="radio">
+			<img src="img/visaLogo.png" />
+			<br>
+			<input name="radio" value="mastercard" type="radio">
+			<img src="img/masterLogo.png" />
+			<br>
+			<input name="radio" value="paypal" type="radio">
+			<img src="img/paypalLogo.png" />
+			<br>
+			<input name="radio" value="bizum" type="radio">
+			<img src="img/bizumLogo.jpg" />
+			<br>
+			<input type="checkbox" name="Terminos"><a>Acepto las condiciones de compra</a>
+			<br>
+			<input class="button" type="submit" name="enviar" value="Proceder al pago" />
+		</fieldset>
+	</form>
+</body>
+
+</html>

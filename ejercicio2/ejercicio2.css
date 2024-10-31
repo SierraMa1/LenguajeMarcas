@@ -1,0 +1,35 @@
+.titulo {
+	background-color: slateblue;
+	color: white;
+	font-family: Tahoma;
+	padding: 10px;
+}
+
+.formulario {
+	background-color: rgb(183, 214, 251);
+	font-family: Tahoma;
+	content: 100px;
+}
+
+.bold { 
+	font-weight: bold; 
+}
+
+.verdana {
+	font-family: Verdana;
+}
+
+.calibri {
+	font-family: Calibri;
+}
+
+img {
+	width: 50px;
+}
+
+.button {
+	padding: 25px;
+	background-color: darkblue;
+	color: skyblue;
+	font-size: 2em;
+}
